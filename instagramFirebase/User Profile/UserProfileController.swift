@@ -55,6 +55,7 @@ struct User {
     init(dictionary: [String: Any]) {
         self.username = dictionary["username"] as? String ?? ""
         self.profileImageUrl = dictionary["profileImageUrl"] as? String ?? ""
+        print("teS")
     }
 }
 
