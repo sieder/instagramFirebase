@@ -21,6 +21,6 @@ class MainTabBarController: UITabBarController {
         
         tabBar.tintColor = .black
         
-        viewControllers = [navController, UIViewController()]
+        viewControllers = [navController, ViewController()]
     }
 }
