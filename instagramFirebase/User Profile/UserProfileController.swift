@@ -26,6 +26,33 @@ class UserProfileController: UICollectionViewController, UICollectionViewDelegat
         
         setupLogOutButton()
         
+        fetchPost()
+        
+    }
+    
+    var posts = [Post]()
+    fileprivate func fetchPost() {
+        guard let uid = Auth.auth().currentUser?.uid else { return }
+        let ref = Database.database().reference().child("posts").child(uid)
+        
+        ref.observe(.value, with: { (snapshot) in
+            
+            guard let dictionaries = snapshot.value as? [String: Any] else { return }
+            dictionaries.forEach({ (key, value) in
+//                print("key - \(key), value  - \(value)")
+                
+                guard let dictionary = value as? [String: Any] else { return }
+            
+                let post = Post(dictionary: dictionary)
+                self.posts.append(post)
+                
+            })
+            
+            self.collectionView?.reloadData()
+            
+        }) { (err) in
+            print("Failed to fetch posts:", err)
+        }
     }
     
     fileprivate func setupLogOutButton() {
@@ -53,7 +80,7 @@ class UserProfileController: UICollectionViewController, UICollectionViewDelegat
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 7
+        return posts.count
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
