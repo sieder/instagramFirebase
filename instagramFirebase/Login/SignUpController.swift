@@ -109,6 +109,7 @@ class SignUpController: UIViewController, UIImagePickerControllerDelegate, UINav
         return button
     }()
     
+    
     @objc func handleSignUp() {
         guard let email = emailTextField.text, email.count > 0 else { return }
         guard let username = usernameTextField.text, username.count > 0 else { return }
@@ -118,6 +119,7 @@ class SignUpController: UIViewController, UIImagePickerControllerDelegate, UINav
             if let err = error {
                 print("failed to create a user", err)
                 return
+                
             }
             
             print("Successfully created user: ", user?.uid ?? "")
