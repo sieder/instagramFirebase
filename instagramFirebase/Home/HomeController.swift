@@ -28,7 +28,14 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
     var posts = [Post]()
     fileprivate func fetchPosts() {
         guard let uid = Auth.auth().currentUser?.uid else { return }
-        let ref = Database.database().reference().child("posts").child(uid)
+        
+        Database.fetchUserWithUID(uid: uid) { (user) in
+            self.fetchPostsWithUser(user: user)
+        }
+    }
+    
+    fileprivate func fetchPostsWithUser(user: User) {
+        let ref = Database.database().reference().child("posts").child(user.uid)
         
         ref.observe(.value, with: { (snapshot) in
             
@@ -37,7 +44,7 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
                 
                 guard let dictionary = value as? [String: Any] else { return }
                 
-                let post = Post(dictionary: dictionary)
+                let post = Post(user: user, dictionary: dictionary)
                 self.posts.append(post)
                 
             })

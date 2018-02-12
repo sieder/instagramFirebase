@@ -22,11 +22,15 @@
 		E07D0193202800A9003678D8 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D0192202800A9003678D8 /* PhotoSelectorCell.swift */; };
 		E07D0195202808D7003678D8 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D0194202808D7003678D8 /* PhotoSelectorHeader.swift */; };
 		E07D0197202813EB003678D8 /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D0196202813EB003678D8 /* SharePhotoController.swift */; };
+		E0815CCA2031282300519D77 /* FirebaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0815CC92031282300519D77 /* FirebaseUtils.swift */; };
+		E0815CCD20312AEF00519D77 /* UserSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0815CCC20312AEF00519D77 /* UserSearchController.swift */; };
+		E0815CCF203131C900519D77 /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0815CCE203131C900519D77 /* UserSearchCell.swift */; };
 		E098FEE3202FC07800187E30 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E098FEE2202FC07800187E30 /* CustomImageView.swift */; };
 		E098FEE6202FCF3B00187E30 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E098FEE5202FCF3B00187E30 /* HomeController.swift */; };
 		E098FEE8202FD33000187E30 /* HomePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E098FEE7202FD33000187E30 /* HomePostCell.swift */; };
 		E0C89CE7200EA40200279901 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C89CE6200EA40200279901 /* Extensions.swift */; };
 		E0C89CE9200EABE400279901 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0C89CE8200EABE400279901 /* GoogleService-Info.plist */; };
+		E0EC63AC203117150039F165 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC63AB203117150039F165 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,11 +52,15 @@
 		E07D0192202800A9003678D8 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		E07D0194202808D7003678D8 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
 		E07D0196202813EB003678D8 /* SharePhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePhotoController.swift; sourceTree = "<group>"; };
+		E0815CC92031282300519D77 /* FirebaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtils.swift; sourceTree = "<group>"; };
+		E0815CCC20312AEF00519D77 /* UserSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
+		E0815CCE203131C900519D77 /* UserSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
 		E098FEE2202FC07800187E30 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		E098FEE5202FCF3B00187E30 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		E098FEE7202FD33000187E30 /* HomePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostCell.swift; sourceTree = "<group>"; };
 		E0C89CE6200EA40200279901 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E0C89CE8200EABE400279901 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E0EC63AB203117150039F165 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FFC95893E119E89B92632C00 /* Pods_instagramFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagramFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -89,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				E026DC01202CCB7700170BE6 /* Posts.swift */,
+				E0EC63AB203117150039F165 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -115,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				E098FEE4202FCF2600187E30 /* Home */,
+				E0815CCB20312AAC00519D77 /* Search */,
 				E026DC00202CCB6D00170BE6 /* Models */,
 				E07D018F2026CEEC003678D8 /* AddPhoto */,
 				E07D018C2026B03B003678D8 /* Login */,
@@ -160,6 +170,15 @@
 			path = AddPhoto;
 			sourceTree = "<group>";
 		};
+		E0815CCB20312AAC00519D77 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E0815CCC20312AEF00519D77 /* UserSearchController.swift */,
+				E0815CCE203131C900519D77 /* UserSearchCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		E098FEE4202FCF2600187E30 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +193,7 @@
 			children = (
 				E0C89CE6200EA40200279901 /* Extensions.swift */,
 				E098FEE2202FC07800187E30 /* CustomImageView.swift */,
+				E0815CC92031282300519D77 /* FirebaseUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -313,13 +333,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0815CCF203131C900519D77 /* UserSearchCell.swift in Sources */,
+				E0815CCA2031282300519D77 /* FirebaseUtils.swift in Sources */,
 				E07D0197202813EB003678D8 /* SharePhotoController.swift in Sources */,
 				E06C343B200E939A00354435 /* SignUpController.swift in Sources */,
 				E07D0193202800A9003678D8 /* PhotoSelectorCell.swift in Sources */,
 				E098FEE3202FC07800187E30 /* CustomImageView.swift in Sources */,
 				E0C89CE7200EA40200279901 /* Extensions.swift in Sources */,
+				E0815CCD20312AEF00519D77 /* UserSearchController.swift in Sources */,
 				E07D0186202571D8003678D8 /* MainTabBarController.swift in Sources */,
 				E026DC04202CCE0700170BE6 /* UserProfilePhotoCell.swift in Sources */,
+				E0EC63AC203117150039F165 /* User.swift in Sources */,
 				E07D018A20257D09003678D8 /* UserProfileHeader.swift in Sources */,
 				E07D018820257352003678D8 /* UserProfileController.swift in Sources */,
 				E026DC02202CCB7700170BE6 /* Posts.swift in Sources */,
