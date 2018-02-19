@@ -14,7 +14,7 @@ class LoginController: UIViewController {
     let logoContainerView: UIView = {
         let view = UIView()
         
-        let logoImageView = UIImageView(image: #imageLiteral(resourceName: "Instagram_logo_white"))
+        let logoImageView = UIImageView(image: #imageLiteral(resourceName: "furrygramlogo"))
         logoImageView.contentMode = .scaleAspectFill
         
         view.addSubview(logoImageView)

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E06C3434200E939A00354435"
-               BuildableName = "instagramFirebase.app"
-               BlueprintName = "instagramFirebase"
-               ReferencedContainer = "container:instagramFirebase.xcodeproj">
+               BuildableName = "furrygram.app"
+               BlueprintName = "furrygram"
+               ReferencedContainer = "container:furrygram.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E06C3434200E939A00354435"
-            BuildableName = "instagramFirebase.app"
-            BlueprintName = "instagramFirebase"
-            ReferencedContainer = "container:instagramFirebase.xcodeproj">
+            BuildableName = "furrygram.app"
+            BlueprintName = "furrygram"
+            ReferencedContainer = "container:furrygram.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,9 +58,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E06C3434200E939A00354435"
-            BuildableName = "instagramFirebase.app"
-            BlueprintName = "instagramFirebase"
-            ReferencedContainer = "container:instagramFirebase.xcodeproj">
+            BuildableName = "furrygram.app"
+            BlueprintName = "furrygram"
+            ReferencedContainer = "container:furrygram.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -84,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E06C3434200E939A00354435"
-            BuildableName = "instagramFirebase.app"
-            BlueprintName = "instagramFirebase"
-            ReferencedContainer = "container:instagramFirebase.xcodeproj">
+            BuildableName = "furrygram.app"
+            BlueprintName = "furrygram"
+            ReferencedContainer = "container:furrygram.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

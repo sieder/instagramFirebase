@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7C10B7CDD7A33E047066DDB0 /* Pods_instagramFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFC95893E119E89B92632C00 /* Pods_instagramFirebase.framework */; };
+		94DE883CAD4477FE5B38DD9E /* Pods_furrygram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D8F27C33372D92FFE9FDDE /* Pods_furrygram.framework */; };
 		E026DC02202CCB7700170BE6 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E026DC01202CCB7700170BE6 /* Posts.swift */; };
 		E026DC04202CCE0700170BE6 /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E026DC03202CCE0700170BE6 /* UserProfilePhotoCell.swift */; };
 		E06C3439200E939A00354435 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06C3438200E939A00354435 /* AppDelegate.swift */; };
@@ -34,11 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05D8F27C33372D92FFE9FDDE /* Pods_furrygram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_furrygram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A245CF22D879812BC3F712A /* Pods-instagramFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagramFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-instagramFirebase/Pods-instagramFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		7F9A27B7EF02FDEA91204E87 /* Pods-furrygram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-furrygram.release.xcconfig"; path = "Pods/Target Support Files/Pods-furrygram/Pods-furrygram.release.xcconfig"; sourceTree = "<group>"; };
 		D475F301F2305C97D29FBFD7 /* Pods-instagramFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instagramFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instagramFirebase/Pods-instagramFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		E026DC01202CCB7700170BE6 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		E026DC03202CCE0700170BE6 /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
-		E06C3435200E939A00354435 /* instagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06C3435200E939A00354435 /* furrygram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = furrygram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06C3438200E939A00354435 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E06C343A200E939A00354435 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		E06C343F200E939A00354435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		E0C89CE6200EA40200279901 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E0C89CE8200EABE400279901 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E0EC63AB203117150039F165 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F2E58B933C4FAA81C2D7A59B /* Pods-furrygram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-furrygram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-furrygram/Pods-furrygram.debug.xcconfig"; sourceTree = "<group>"; };
 		FFC95893E119E89B92632C00 /* Pods_instagramFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instagramFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C10B7CDD7A33E047066DDB0 /* Pods_instagramFirebase.framework in Frameworks */,
+				94DE883CAD4477FE5B38DD9E /* Pods_furrygram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				FFC95893E119E89B92632C00 /* Pods_instagramFirebase.framework */,
+				05D8F27C33372D92FFE9FDDE /* Pods_furrygram.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,6 +93,8 @@
 			children = (
 				D475F301F2305C97D29FBFD7 /* Pods-instagramFirebase.debug.xcconfig */,
 				2A245CF22D879812BC3F712A /* Pods-instagramFirebase.release.xcconfig */,
+				F2E58B933C4FAA81C2D7A59B /* Pods-furrygram.debug.xcconfig */,
+				7F9A27B7EF02FDEA91204E87 /* Pods-furrygram.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -105,7 +111,7 @@
 		E06C342C200E939A00354435 = {
 			isa = PBXGroup;
 			children = (
-				E06C3437200E939A00354435 /* instagramFirebase */,
+				E06C3437200E939A00354435 /* furrygram */,
 				E06C3436200E939A00354435 /* Products */,
 				63132631DE1161E9E866B11E /* Pods */,
 				5AE729322A2C5A645081C26D /* Frameworks */,
@@ -115,12 +121,12 @@
 		E06C3436200E939A00354435 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E06C3435200E939A00354435 /* instagramFirebase.app */,
+				E06C3435200E939A00354435 /* furrygram.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E06C3437200E939A00354435 /* instagramFirebase */ = {
+		E06C3437200E939A00354435 /* furrygram */ = {
 			isa = PBXGroup;
 			children = (
 				E098FEE4202FCF2600187E30 /* Home */,
@@ -137,7 +143,7 @@
 				E06C3444200E939A00354435 /* Info.plist */,
 				E0C89CE8200EABE400279901 /* GoogleService-Info.plist */,
 			);
-			path = instagramFirebase;
+			path = furrygram;
 			sourceTree = "<group>";
 		};
 		E07D018B20257D2C003678D8 /* User Profile */ = {
@@ -201,9 +207,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E06C3434200E939A00354435 /* instagramFirebase */ = {
+		E06C3434200E939A00354435 /* furrygram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E06C3447200E939A00354435 /* Build configuration list for PBXNativeTarget "instagramFirebase" */;
+			buildConfigurationList = E06C3447200E939A00354435 /* Build configuration list for PBXNativeTarget "furrygram" */;
 			buildPhases = (
 				10B72BC3B8B0EE4FBF3D8B48 /* [CP] Check Pods Manifest.lock */,
 				E06C3431200E939A00354435 /* Sources */,
@@ -216,9 +222,9 @@
 			);
 			dependencies = (
 			);
-			name = instagramFirebase;
+			name = furrygram;
 			productName = instagramFirebase;
-			productReference = E06C3435200E939A00354435 /* instagramFirebase.app */;
+			productReference = E06C3435200E939A00354435 /* furrygram.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E06C3430200E939A00354435 /* Build configuration list for PBXProject "instagramFirebase" */;
+			buildConfigurationList = E06C3430200E939A00354435 /* Build configuration list for PBXProject "furrygram" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -250,7 +256,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E06C3434200E939A00354435 /* instagramFirebase */,
+				E06C3434200E939A00354435 /* furrygram */,
 			);
 		};
 /* End PBXProject section */
@@ -280,7 +286,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-instagramFirebase-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-furrygram-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -293,7 +299,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-instagramFirebase/Pods-instagramFirebase-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-furrygram/Pods-furrygram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -308,7 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instagramFirebase/Pods-instagramFirebase-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-furrygram/Pods-furrygram-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BEB7411CB3676B4C40423A5F /* [CP] Copy Pods Resources */ = {
@@ -323,7 +329,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instagramFirebase/Pods-instagramFirebase-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-furrygram/Pods-furrygram-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -479,14 +485,14 @@
 		};
 		E06C3448200E939A00354435 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D475F301F2305C97D29FBFD7 /* Pods-instagramFirebase.debug.xcconfig */;
+			baseConfigurationReference = F2E58B933C4FAA81C2D7A59B /* Pods-furrygram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 528B455C32;
-				INFOPLIST_FILE = instagramFirebase/Info.plist;
+				INFOPLIST_FILE = furrygram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sieder.instagramFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sieder.furrygram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,14 +501,14 @@
 		};
 		E06C3449200E939A00354435 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A245CF22D879812BC3F712A /* Pods-instagramFirebase.release.xcconfig */;
+			baseConfigurationReference = 7F9A27B7EF02FDEA91204E87 /* Pods-furrygram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 528B455C32;
-				INFOPLIST_FILE = instagramFirebase/Info.plist;
+				INFOPLIST_FILE = furrygram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sieder.instagramFirebase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sieder.furrygram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,7 +518,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E06C3430200E939A00354435 /* Build configuration list for PBXProject "instagramFirebase" */ = {
+		E06C3430200E939A00354435 /* Build configuration list for PBXProject "furrygram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E06C3445200E939A00354435 /* Debug */,
@@ -521,7 +527,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E06C3447200E939A00354435 /* Build configuration list for PBXNativeTarget "instagramFirebase" */ = {
+		E06C3447200E939A00354435 /* Build configuration list for PBXNativeTarget "furrygram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E06C3448200E939A00354435 /* Debug */,
