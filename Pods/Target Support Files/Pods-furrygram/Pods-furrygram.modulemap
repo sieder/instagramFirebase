@@ -1,0 +1,6 @@
+framework module Pods_furrygram {
+  umbrella header "Pods-furrygram-umbrella.h"
+
+  export *
+  module * { export * }
+}

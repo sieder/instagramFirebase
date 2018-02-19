@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_instagramFirebaseVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_instagramFirebaseVersionString[];
+FOUNDATION_EXPORT double Pods_furrygramVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_furrygramVersionString[];
 
